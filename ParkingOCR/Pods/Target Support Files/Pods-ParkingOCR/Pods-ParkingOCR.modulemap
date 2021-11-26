@@ -1,0 +1,6 @@
+framework module Pods_ParkingOCR {
+  umbrella header "Pods-ParkingOCR-umbrella.h"
+
+  export *
+  module * { export * }
+}

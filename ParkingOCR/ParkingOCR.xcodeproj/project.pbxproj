@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64F71A59274CA48D009D6164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71A58274CA48D009D6164 /* AppDelegate.swift */; };
+		64F71A5B274CA48D009D6164 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71A5A274CA48D009D6164 /* SceneDelegate.swift */; };
+		64F71A5D274CA48D009D6164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71A5C274CA48D009D6164 /* ViewController.swift */; };
+		64F71A60274CA48D009D6164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F71A5E274CA48D009D6164 /* Main.storyboard */; };
+		64F71A62274CA48F009D6164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F71A61274CA48F009D6164 /* Assets.xcassets */; };
+		64F71A65274CA48F009D6164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F71A63274CA48F009D6164 /* LaunchScreen.storyboard */; };
+		64F71A6F274CBA9D009D6164 /* eng.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = 64F71A6D274CBA9D009D6164 /* eng.traineddata */; };
+		64F71A70274CBA9D009D6164 /* kor.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = 64F71A6E274CBA9D009D6164 /* kor.traineddata */; };
+		64F71A73274F75DD009D6164 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71A72274F75DD009D6164 /* ScanViewController.swift */; };
+		64F71A76274F7624009D6164 /* ScanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71A75274F7624009D6164 /* ScanModel.swift */; };
+		64F71A79274F7768009D6164 /* ViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71A78274F7768009D6164 /* ViewControllerModel.swift */; };
+		64F71A7C274F7803009D6164 /* ScanView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F71A7B274F7803009D6164 /* ScanView.storyboard */; };
+		F9C3E7E2940DFE7487239405 /* Pods_ParkingOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7534658F0C74DF4D33E7106F /* Pods_ParkingOCR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64F71A55274CA48D009D6164 /* ParkingOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F71A58274CA48D009D6164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64F71A5A274CA48D009D6164 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64F71A5C274CA48D009D6164 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64F71A5F274CA48D009D6164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64F71A61274CA48F009D6164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F71A64274CA48F009D6164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64F71A66274CA48F009D6164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F71A6D274CBA9D009D6164 /* eng.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = eng.traineddata; sourceTree = "<group>"; };
+		64F71A6E274CBA9D009D6164 /* kor.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = kor.traineddata; sourceTree = "<group>"; };
+		64F71A72274F75DD009D6164 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		64F71A75274F7624009D6164 /* ScanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanModel.swift; sourceTree = "<group>"; };
+		64F71A78274F7768009D6164 /* ViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerModel.swift; sourceTree = "<group>"; };
+		64F71A7B274F7803009D6164 /* ScanView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScanView.storyboard; sourceTree = "<group>"; };
+		7534658F0C74DF4D33E7106F /* Pods_ParkingOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkingOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32E055FA827B366C8B53CC3 /* Pods-ParkingOCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingOCR.debug.xcconfig"; path = "Target Support Files/Pods-ParkingOCR/Pods-ParkingOCR.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD9BA83090F319CE4C62645 /* Pods-ParkingOCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingOCR.release.xcconfig"; path = "Target Support Files/Pods-ParkingOCR/Pods-ParkingOCR.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F71A52274CA48D009D6164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C3E7E2940DFE7487239405 /* Pods_ParkingOCR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311608AC2FC8DF5726F94E11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C32E055FA827B366C8B53CC3 /* Pods-ParkingOCR.debug.xcconfig */,
+				DFD9BA83090F319CE4C62645 /* Pods-ParkingOCR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		64F71A4C274CA48D009D6164 = {
+			isa = PBXGroup;
+			children = (
+				64F71A6C274CBA87009D6164 /* LangData */,
+				64F71A57274CA48D009D6164 /* ParkingOCR */,
+				64F71A56274CA48D009D6164 /* Products */,
+				311608AC2FC8DF5726F94E11 /* Pods */,
+				8DF832134DCEA63B0C22A0E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64F71A56274CA48D009D6164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F71A55274CA48D009D6164 /* ParkingOCR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F71A57274CA48D009D6164 /* ParkingOCR */ = {
+			isa = PBXGroup;
+			children = (
+				64F71A7A274F77E8009D6164 /* StoryBoard */,
+				64F71A77274F7749009D6164 /* Delegate */,
+				64F71A74274F7610009D6164 /* Model */,
+				64F71A71274F75B6009D6164 /* VC */,
+				64F71A61274CA48F009D6164 /* Assets.xcassets */,
+				64F71A63274CA48F009D6164 /* LaunchScreen.storyboard */,
+				64F71A66274CA48F009D6164 /* Info.plist */,
+			);
+			path = ParkingOCR;
+			sourceTree = "<group>";
+		};
+		64F71A6C274CBA87009D6164 /* LangData */ = {
+			isa = PBXGroup;
+			children = (
+				64F71A6D274CBA9D009D6164 /* eng.traineddata */,
+				64F71A6E274CBA9D009D6164 /* kor.traineddata */,
+			);
+			path = LangData;
+			sourceTree = "<group>";
+		};
+		64F71A71274F75B6009D6164 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				64F71A72274F75DD009D6164 /* ScanViewController.swift */,
+				64F71A5C274CA48D009D6164 /* ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		64F71A74274F7610009D6164 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64F71A75274F7624009D6164 /* ScanModel.swift */,
+				64F71A78274F7768009D6164 /* ViewControllerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64F71A77274F7749009D6164 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				64F71A58274CA48D009D6164 /* AppDelegate.swift */,
+				64F71A5A274CA48D009D6164 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		64F71A7A274F77E8009D6164 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				64F71A5E274CA48D009D6164 /* Main.storyboard */,
+				64F71A7B274F7803009D6164 /* ScanView.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		8DF832134DCEA63B0C22A0E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7534658F0C74DF4D33E7106F /* Pods_ParkingOCR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F71A54274CA48D009D6164 /* ParkingOCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F71A69274CA48F009D6164 /* Build configuration list for PBXNativeTarget "ParkingOCR" */;
+			buildPhases = (
+				743AA245297A04545140CD8A /* [CP] Check Pods Manifest.lock */,
+				64F71A51274CA48D009D6164 /* Sources */,
+				64F71A52274CA48D009D6164 /* Frameworks */,
+				64F71A53274CA48D009D6164 /* Resources */,
+				8844DF3ACA54C39579053B66 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingOCR;
+			productName = ParkingOCR;
+			productReference = 64F71A55274CA48D009D6164 /* ParkingOCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F71A4D274CA48D009D6164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					64F71A54274CA48D009D6164 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 64F71A50274CA48D009D6164 /* Build configuration list for PBXProject "ParkingOCR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64F71A4C274CA48D009D6164;
+			productRefGroup = 64F71A56274CA48D009D6164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F71A54274CA48D009D6164 /* ParkingOCR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F71A53274CA48D009D6164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F71A7C274F7803009D6164 /* ScanView.storyboard in Resources */,
+				64F71A6F274CBA9D009D6164 /* eng.traineddata in Resources */,
+				64F71A65274CA48F009D6164 /* LaunchScreen.storyboard in Resources */,
+				64F71A62274CA48F009D6164 /* Assets.xcassets in Resources */,
+				64F71A70274CBA9D009D6164 /* kor.traineddata in Resources */,
+				64F71A60274CA48D009D6164 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		743AA245297A04545140CD8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParkingOCR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8844DF3ACA54C39579053B66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkingOCR/Pods-ParkingOCR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkingOCR/Pods-ParkingOCR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkingOCR/Pods-ParkingOCR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F71A51274CA48D009D6164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F71A5D274CA48D009D6164 /* ViewController.swift in Sources */,
+				64F71A59274CA48D009D6164 /* AppDelegate.swift in Sources */,
+				64F71A79274F7768009D6164 /* ViewControllerModel.swift in Sources */,
+				64F71A5B274CA48D009D6164 /* SceneDelegate.swift in Sources */,
+				64F71A73274F75DD009D6164 /* ScanViewController.swift in Sources */,
+				64F71A76274F7624009D6164 /* ScanModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64F71A5E274CA48D009D6164 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F71A5F274CA48D009D6164 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64F71A63274CA48F009D6164 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F71A64274CA48F009D6164 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64F71A67274CA48F009D6164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64F71A68274CA48F009D6164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64F71A6A274CA48F009D6164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32E055FA827B366C8B53CC3 /* Pods-ParkingOCR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT5RWH8YQA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkingOCR/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedITF.ParkingOCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F71A6B274CA48F009D6164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD9BA83090F319CE4C62645 /* Pods-ParkingOCR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT5RWH8YQA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkingOCR/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedITF.ParkingOCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F71A50274CA48D009D6164 /* Build configuration list for PBXProject "ParkingOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F71A67274CA48F009D6164 /* Debug */,
+				64F71A68274CA48F009D6164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F71A69274CA48F009D6164 /* Build configuration list for PBXNativeTarget "ParkingOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F71A6A274CA48F009D6164 /* Debug */,
+				64F71A6B274CA48F009D6164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F71A4D274CA48D009D6164 /* Project object */;
+}
