@@ -7,4 +7,5 @@ target 'ParkingOCR' do
 
   # Pods for ParkingOCR
   pod 'TesseractOCRiOS'
+  pod 'SnapKit'
 end

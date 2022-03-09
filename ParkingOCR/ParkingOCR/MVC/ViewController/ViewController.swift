@@ -4,6 +4,8 @@
 //
 //  Created by Dongyoung Kim on 11/23/21.
 //
+// 메인 뷰컨트롤러, 메인이 될 예정
+// 구동 순서 런처 스크린 -> 스플래쉬(로딩 및 서버 연결 처리 ) -> 로구인 화면 -> 메인(웹뷰 또는 네이티브 추후 선택) -> 각 뷰 연결
 
 import UIKit
 class ViewController: UIViewController {
@@ -22,12 +24,6 @@ class ViewController: UIViewController {
         //3 뷰를 호출
         present(second, animated: true, completion: nil)
         
-        
-        
-//        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ScanViewController2")
-//        vc?.modalTransitionStyle = .coverVertical
-//        vc?.modalPresentationStyle = .popover
-//        self.present(vc!, animated: true, completion: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()

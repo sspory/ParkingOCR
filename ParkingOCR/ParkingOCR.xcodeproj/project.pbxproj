@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64086C7F27D39E5300208A14 /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64086C7E27D39E5300208A14 /* ScanData.swift */; };
+		64086C8127D3CBF600208A14 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64086C8027D3CBF600208A14 /* LoginViewController.swift */; };
+		64086C8427D3D00600208A14 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64086C8327D3D00600208A14 /* LoginModel.swift */; };
+		64086C8827D49CC300208A14 /* CustomAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64086C8727D49CC300208A14 /* CustomAlert.xib */; };
+		64086C8C27D4AC7C00208A14 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64086C8B27D4AC7C00208A14 /* CustomAlert.swift */; };
+		6457FAF727D4E013003C1994 /* LoginVIew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6457FAF627D4E013003C1994 /* LoginVIew.storyboard */; };
 		64F71A59274CA48D009D6164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71A58274CA48D009D6164 /* AppDelegate.swift */; };
 		64F71A5B274CA48D009D6164 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71A5A274CA48D009D6164 /* SceneDelegate.swift */; };
 		64F71A5D274CA48D009D6164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71A5C274CA48D009D6164 /* ViewController.swift */; };
@@ -23,6 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64047AA02750959D008E7603 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		64086C7E27D39E5300208A14 /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		64086C8027D3CBF600208A14 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		64086C8327D3D00600208A14 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		64086C8727D49CC300208A14 /* CustomAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlert.xib; sourceTree = "<group>"; };
+		64086C8B27D4AC7C00208A14 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		6457FAF627D4E013003C1994 /* LoginVIew.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginVIew.storyboard; sourceTree = "<group>"; };
 		64F71A55274CA48D009D6164 /* ParkingOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F71A58274CA48D009D6164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F71A5A274CA48D009D6164 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,9 +76,62 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		64086C7B27D39DF400208A14 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				64F71A74274F7610009D6164 /* Model */,
+				64086C7C27D39E0100208A14 /* ViewController */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		64086C7C27D39E0100208A14 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				64086C8027D3CBF600208A14 /* LoginViewController.swift */,
+				64F71A5C274CA48D009D6164 /* ViewController.swift */,
+				64F71A72274F75DD009D6164 /* ScanViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		64086C7D27D39E3500208A14 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				64086C7E27D39E5300208A14 /* ScanData.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		64086C8A27D49CE200208A14 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				64086C8D27D4AC9500208A14 /* CustomAlert */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		64086C8D27D4AC9500208A14 /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				64086C8727D49CC300208A14 /* CustomAlert.xib */,
+				64086C8B27D4AC7C00208A14 /* CustomAlert.swift */,
+			);
+			path = CustomAlert;
+			sourceTree = "<group>";
+		};
+		64A09AE627509515001CA9F8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				64047AA02750959D008E7603 /* readme.md */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		64F71A4C274CA48D009D6164 = {
 			isa = PBXGroup;
 			children = (
+				64A09AE627509515001CA9F8 /* New Group */,
 				64F71A6C274CBA87009D6164 /* LangData */,
 				64F71A57274CA48D009D6164 /* ParkingOCR */,
 				64F71A56274CA48D009D6164 /* Products */,
@@ -85,10 +151,11 @@
 		64F71A57274CA48D009D6164 /* ParkingOCR */ = {
 			isa = PBXGroup;
 			children = (
+				64086C8A27D49CE200208A14 /* CustomView */,
+				64086C7D27D39E3500208A14 /* Service */,
+				64086C7B27D39DF400208A14 /* MVC */,
 				64F71A7A274F77E8009D6164 /* StoryBoard */,
 				64F71A77274F7749009D6164 /* Delegate */,
-				64F71A74274F7610009D6164 /* Model */,
-				64F71A71274F75B6009D6164 /* VC */,
 				64F71A61274CA48F009D6164 /* Assets.xcassets */,
 				64F71A63274CA48F009D6164 /* LaunchScreen.storyboard */,
 				64F71A66274CA48F009D6164 /* Info.plist */,
@@ -105,20 +172,12 @@
 			path = LangData;
 			sourceTree = "<group>";
 		};
-		64F71A71274F75B6009D6164 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				64F71A72274F75DD009D6164 /* ScanViewController.swift */,
-				64F71A5C274CA48D009D6164 /* ViewController.swift */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
 		64F71A74274F7610009D6164 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				64F71A75274F7624009D6164 /* ScanModel.swift */,
 				64F71A78274F7768009D6164 /* ViewControllerModel.swift */,
+				64086C8327D3D00600208A14 /* LoginModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -137,6 +196,7 @@
 			children = (
 				64F71A5E274CA48D009D6164 /* Main.storyboard */,
 				64F71A7B274F7803009D6164 /* ScanView.storyboard */,
+				6457FAF627D4E013003C1994 /* LoginVIew.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -213,8 +273,10 @@
 				64F71A6F274CBA9D009D6164 /* eng.traineddata in Resources */,
 				64F71A65274CA48F009D6164 /* LaunchScreen.storyboard in Resources */,
 				64F71A62274CA48F009D6164 /* Assets.xcassets in Resources */,
+				64086C8827D49CC300208A14 /* CustomAlert.xib in Resources */,
 				64F71A70274CBA9D009D6164 /* kor.traineddata in Resources */,
 				64F71A60274CA48D009D6164 /* Main.storyboard in Resources */,
+				6457FAF727D4E013003C1994 /* LoginVIew.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +333,12 @@
 				64F71A59274CA48D009D6164 /* AppDelegate.swift in Sources */,
 				64F71A79274F7768009D6164 /* ViewControllerModel.swift in Sources */,
 				64F71A5B274CA48D009D6164 /* SceneDelegate.swift in Sources */,
+				64086C8427D3D00600208A14 /* LoginModel.swift in Sources */,
+				64086C8127D3CBF600208A14 /* LoginViewController.swift in Sources */,
 				64F71A73274F75DD009D6164 /* ScanViewController.swift in Sources */,
+				64086C7F27D39E5300208A14 /* ScanData.swift in Sources */,
 				64F71A76274F7624009D6164 /* ScanModel.swift in Sources */,
+				64086C8C27D4AC7C00208A14 /* CustomAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +493,10 @@
 				DEVELOPMENT_TEAM = WT5RWH8YQA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ParkingOCR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "자동차 번호 인식을 위하여 카메라를 사용합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LoginVIew;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,9 +523,10 @@
 				DEVELOPMENT_TEAM = WT5RWH8YQA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ParkingOCR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "자동차 번호 인식을 위하여 카메라를 사용합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LoginVIew;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
